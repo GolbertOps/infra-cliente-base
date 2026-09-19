@@ -5,4 +5,5 @@ provider "aws" {
 module "vpc" {
   source      = "../../modules/vpc"
   environment = "lab"
+  cidr_block  = "10.0.0.0/16"
 }
