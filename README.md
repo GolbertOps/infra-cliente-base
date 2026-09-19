@@ -64,4 +64,4 @@ terraform validate
 terraform plan
 ```
 
-Security Note: Do not execute terraform apply in test accounts or without explicit architectural authorization to prevent resource charges in AWS.
+> **Security Note**: Do not execute terraform apply in test accounts or without explicit architectural authorization to prevent resource charges in AWS.
